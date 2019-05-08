@@ -24,6 +24,6 @@ end
 end
 speak_to
 
-puts speak_to(HI)
-puts speak_to(hi)
-puts speak_to(I LOVE YOU GRANDMA!)
+puts speak_to("HI")
+puts speak_to("hi")
+puts speak_to("I LOVE YOU GRANDMA!")
