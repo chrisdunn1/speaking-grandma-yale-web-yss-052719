@@ -18,11 +18,12 @@ def speak_to_grandma(greeting)
    elsif greeting == greeting.downcase
    puts 'HUH?! SPEAK UP SONNY!'
    else
-    puts 'NO, NOT SINCE 1938!'
+  puts 'NO, NOT SINCE 1938!'
 end
 end
 
+speak_to_grandma
 
-speak_to_grandma('HI')
-speak_to_grandma('hi')
-speak_to_grandma('I LOVE YOU GRANDMA!')
+puts speak_to_grandma('HI')
+puts speak_to_grandma('hi')
+puts speak_to_grandma('I LOVE YOU GRANDMA!')
