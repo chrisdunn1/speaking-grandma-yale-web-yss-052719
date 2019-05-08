@@ -22,8 +22,6 @@ def speak_to_grandma(greeting)
 end
 end
 
-speak_to_grandma
-
 puts speak_to_grandma('HI')
 puts speak_to_grandma('Hi Nana, how are you?')
 puts speak_to_grandma('Hi')
