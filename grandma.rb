@@ -12,8 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to
-    greeting = gets.chomp
+def speak_to(greeting)
    if
     greeting == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
@@ -24,3 +23,7 @@ def speak_to
 end
 end
 speak_to
+
+puts speak_to("HI")
+puts speak_to("hi")
+puts speak_to("I LOVE YOU GRANDMA!")
