@@ -25,5 +25,7 @@ end
 speak_to_grandma
 
 puts speak_to_grandma('HI')
-puts speak_to_grandma('hi')
-puts speak_to_grandma('I LOVE YOU GRANDMA!')
+puts speak_to_grandma('Hi Nana, how are you?')
+puts speak_to_grandma('Hi')
+puts speak_to_grandma('WHAT DID YOU EAT TODAY?')
+puts speak_to_grandma('WHAT?')
