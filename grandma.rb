@@ -23,6 +23,6 @@ end
 end
 
 
-puts speak_to_grandma('HI')
-puts speak_to_grandma('hi')
-puts speak_to_grandma('I LOVE YOU GRANDMA!')
+speak_to_grandma('HI')
+speak_to_grandma('hi')
+speak_to_grandma('I LOVE YOU GRANDMA!')
