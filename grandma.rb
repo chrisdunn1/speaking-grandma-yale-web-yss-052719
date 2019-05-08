@@ -11,8 +11,7 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-
-def speak_to(greeting)
+def speak_to_grandma(greeting)
    if
     greeting == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
@@ -24,6 +23,6 @@ end
 end
 speak_to
 
-puts speak_to("HI")
-puts speak_to("hi")
-puts speak_to("I LOVE YOU GRANDMA!")
+puts speak_to_grandma("HI")
+puts speak_to_grandma("hi")
+puts speak_to_grandma("I LOVE YOU GRANDMA!")
